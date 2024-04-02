@@ -14,15 +14,25 @@
     </environment>
 }
 <div class="card-block">
-    <div class="card-header	text-white	bg-secondary	text-center	h1">Exibindo um Departamento existente</div>
+    <div class="card-header	text-white	bg-secondary text-center h1">Exibindo um Departamento existente</div>
     <div class="card-body">
         <div class="form-group">
-            <label asp-for="Nome" class="control-label"></label>
+            <label asp-for="DepartamentoId" class="control-label"></label>
             <br />
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text">
                         <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <input asp-for="DepartamentoId" class="form-control" disabled="disabled" />
+            </div>
+            <label asp-for="Nome" class="control-label"></label>
+            <br />
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa	fa-user-circle-o" aria-hidden="true"></i>
                     </span>
                 </div>
                 <input asp-for="Nome" class="form-control" disabled="disabled" />
@@ -34,19 +44,50 @@
                         <i class="fa	fa-map-marker-alt" aria-hidden="true"></i>
                     </span>
                 </div>
+                <input asp-for="Instituicao.Nome" class="form-control" disabled="disabled" />
             </div>
         </div>
     </div>
     <div class="card-footer	bg-info	text-center	text-white">
-        <form asp-action="Delete">
-            <input type="hidden" asp-for="DepartamentoId" />
-            <input type="submit" value="Remover	Departameto" class="btn	btn-light" />
-            <a asp-action="Index" class="btn	btn-info">
-                Retornar à listagem	de Departamentos
-            </a>
-        </form>
+        <a asp-action="Index" class="btn	btn-danger">
+            Retornar à	listagem	de	Departamentos
+        </a>
+        <button type="button" class="btn	btn-dark" data-toggle="modal" data-target="#modalConfirmationDelete">
+            Remover	Departamento
+        </button>
     </div>
 </div>
+
+<<div class="modal	fade" id="modalConfirmationDelete" tabindex="-1"
+      role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModal">
+                    Remoção
+                    de	Departamento
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Confirma a exclusão	do departamento	@Model.Nome.ToUpper()	??
+                </p>
+            </div>
+            <div class="modal-footer">
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="DepartamentoId" />
+                    <input type="submit" value="Remover	Departamento" class="btn	btn-primary" />
+                    <button type="button" class="btn	btn-secondary" data-dismiss="modal">Fechar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 @section ScriptPage	{
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
