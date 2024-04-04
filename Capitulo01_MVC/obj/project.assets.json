@@ -2521,6 +2521,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelo.dll": {}
+        }
       }
     }
   },
@@ -8324,6 +8334,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Modelo/1.0.0": {
+      "type": "project",
+      "path": "../Modelo/Modelo.csproj",
+      "msbuildProject": "../Modelo/Modelo.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8333,7 +8348,8 @@
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
-      "Microsoft.Web.LibraryManager.Build >= 2.1.175"
+      "Microsoft.Web.LibraryManager.Build >= 2.1.175",
+      "Modelo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8368,7 +8384,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fabri\\source\\repos\\Capitulo01_MVC\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\fabri\\source\\repos\\Capitulo01_MVC\\Modelo\\Modelo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

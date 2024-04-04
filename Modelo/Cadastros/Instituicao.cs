@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Capitulo01_MVC.Models
+namespace Modelo.Cadastros
 {
     public class Instituicao
     {

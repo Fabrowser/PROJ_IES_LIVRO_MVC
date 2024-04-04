@@ -153,3 +153,7 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIES.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Instituicao\_ComDepartamentos.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Instituicao\_PartialDetailsContentCard.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Departamento\_PartialDetailsContentCard.cshtml.g.cs

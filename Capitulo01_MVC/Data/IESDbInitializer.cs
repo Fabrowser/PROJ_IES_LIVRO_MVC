@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Modelo.Cadastros;
 
 namespace Capitulo01_MVC.Data
 {
