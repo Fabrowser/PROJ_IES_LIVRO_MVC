@@ -50,7 +50,7 @@ namespace Capitulo01_MVC.Controllers
 
         public async Task<IActionResult> Details(long? id)
         {
-            return await academicoDAL.ObterAcademicoPorId(id);
+            return await ObterVisaoAcademicoPorId(id);
         }
 
         public async Task<IActionResult> Edit(long? id)
