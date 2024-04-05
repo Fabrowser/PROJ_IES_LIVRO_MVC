@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Modelo.Cadastros;
+using Capitulo01_MVC.Data.DAL.Cadastros;
+using Modelo.Discente;
 
 namespace Capitulo01_MVC.Data
 {
@@ -20,6 +22,29 @@ namespace Capitulo01_MVC.Data
 
         public DbSet<Departamento> Departamentos { get; set; }
         public DbSet<Instituicao> Instituicoes { get; set; }
+        public DbSet<Curso> Cursos { get; set; }
+        public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<Academico> Academicos
+        {get; set;}
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<CursoDisciplina>()
+            .HasKey(cd => new { cd.CursoID, cd.DisciplinaID });
+
+            modelBuilder.Entity<CursoDisciplina>()
+                .HasOne(c => c.Curso)
+                .WithMany(cd => cd.CursosDisciplinas)
+                .HasForeignKey(d => d.DisciplinaID);
+
+
+            modelBuilder.Entity<CursoDisciplina>()
+                .HasOne(c => c.Disciplina)
+                .WithMany(cd => cd.CursosDisciplinas)
+                .HasForeignKey(d => d.DisciplinaID);
+        }
 
 
         //Abaixo Uma Sobrescrita caso a tabela ja exista na base de dados com nome diferente. 

@@ -17,7 +17,9 @@ namespace Capitulo01_MVC
         {
 			var host = CreateHostBuilder(args).Build();
 
-			using (var scope = host.Services.CreateScope())
+			
+			//Comentado a pedido do livro na pagina 196
+			/*using (var scope = host.Services.CreateScope())
 			{
 				var services = scope.ServiceProvider;
 				try
@@ -30,7 +32,10 @@ namespace Capitulo01_MVC
 					var logger = services.GetRequiredService<ILogger<Program>>();
 					logger.LogError(ex, "Um	erro	ocorreu	ao	popular  a   base    de  dados.");
 				}
-			}
+			}*/
+
+
+
 			host.Run();
 		}
 
