@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Modelo.Cadastros;
 
 namespace Modelo.Cadastros
 {
@@ -13,6 +14,8 @@ namespace Modelo.Cadastros
 
         public long? InstituicaoID { get;set;}
         public Instituicao Instituicao { get; set; }
+
+        public virtual ICollection<Curso> Cursos { get; set; }
 
     }
 }

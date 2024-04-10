@@ -5,11 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Departamento\View.cshtml" />
-    <Content Remove="Views\Instituicao\Detais.cshtml" />
+    <Content Remove="Areas\Cadastros\Views\Departamento\View.cshtml" />
+    <Content Remove="Areas\Cadastros\Views\Instituicao\Detais.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
       <PrivateAssets>all</PrivateAssets>
@@ -22,6 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Cadastros\Data\" />
+    <Folder Include="Areas\Cadastros\Models\" />
+    <Folder Include="Areas\Discente\Data\" />
+    <Folder Include="Areas\Discente\Models\" />
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 

@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 using Modelo.Cadastros;
 using Capitulo01_MVC.Data.DAL.Cadastros;
 using Modelo.Discente;
+using Capitulo01_MVC.Models.Infra;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Capitulo01_MVC.Data
 {
 
-    public class IESContext : DbContext
+    public class IESContext : IdentityDbContext<UsuarioDaAplicacao>
     {
-
 
         public IESContext(DbContextOptions<IESContext> options) : base(options)
         {
