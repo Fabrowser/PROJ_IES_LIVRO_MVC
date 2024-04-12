@@ -72,7 +72,6 @@
           "Microsoft.AspNetCore.Http.Connections": "3.1.0.0",
           "Microsoft.AspNetCore.Http": "3.1.0.0",
           "Microsoft.AspNetCore.Http.Extensions": "3.1.0.0",
-          "Microsoft.AspNetCore.Http.Features": "3.1.0.0",
           "Microsoft.AspNetCore.HttpOverrides": "3.1.0.0",
           "Microsoft.AspNetCore.HttpsPolicy": "3.1.0.0",
           "Microsoft.AspNetCore.Identity": "3.1.0.0",
@@ -199,7 +198,7 @@
           "System.IO.FileSystem.Watcher": "4.1.2.0",
           "System.IO.IsolatedStorage": "4.1.2.0",
           "System.IO.MemoryMappedFiles": "4.1.2.0",
-          "System.IO.Pipelines": "4.0.2.0",
+          "System.IO.Pipelines.Reference": "4.0.2.0",
           "System.IO.Pipes": "4.1.2.0",
           "System.IO.UnmanagedMemoryStream": "4.1.2.0",
           "System.Linq.Reference": "4.2.2.0",
@@ -340,6 +339,21 @@
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "4.5.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.4",
+          "System.IO.Pipelines": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61510"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {}
         }
       },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.1": {
@@ -1619,6 +1633,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.IO.Pipelines/4.7.0": {},
       "System.Linq/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2209,6 +2224,9 @@
         }
       },
       "Modelo/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "3.1.1"
+        },
         "runtime": {
           "Modelo.dll": {}
         },
@@ -2411,12 +2429,6 @@
       "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Http.Extensions.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Http.Features/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Http.Features.dll": {}
         },
         "compileOnly": true
       },
@@ -3176,7 +3188,7 @@
         },
         "compileOnly": true
       },
-      "System.IO.Pipelines/4.0.2.0": {
+      "System.IO.Pipelines.Reference/4.0.2.0": {
         "compile": {
           "System.IO.Pipelines.dll": {}
         },
@@ -3834,6 +3846,13 @@
       "sha512": "sha512-Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qkjtwq5tUwsVTCfhi/dsKxtcJ7ZognOcQWoZYIobUCN6keCr3ec6jRwpupUzk6PFNCFz9acltgBqU/lxOoSxvA==",
+      "path": "microsoft.aspnetcore.http.features/3.1.1",
+      "hashPath": "microsoft.aspnetcore.http.features.3.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.1": {
       "type": "package",
@@ -4542,6 +4561,13 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
+    "System.IO.Pipelines/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0L7oyWyQdVzD+5xIvcC8h44Vc+FY+qXDCLRh2+YsuBDORNphcxNX+tXR6ByLMjQ/7jDaXxsYBF6qbAr7ZIaFw==",
+      "path": "system.io.pipelines/4.7.0",
+      "hashPath": "system.io.pipelines.4.7.0.nupkg.sha512"
+    },
     "System.Linq/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -5093,11 +5119,6 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Http.Features/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5732,7 +5753,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.IO.Pipelines/4.0.2.0": {
+    "System.IO.Pipelines.Reference/4.0.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

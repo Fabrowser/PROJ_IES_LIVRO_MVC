@@ -1,11 +1,3 @@
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.csproj.AssemblyReference.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.AssemblyInfoInputs.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.AssemblyInfo.cs
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.csproj.CoreCompileInputs.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorAssemblyInfo.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorAssemblyInfo.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\libman.json
@@ -19,6 +11,7 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Capitulo01_MVC.Views.pdb
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -130,7 +123,17 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Modelo.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.csproj.AssemblyReference.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.AssemblyInfoInputs.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.AssemblyInfo.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.csproj.CoreCompileInputs.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorAssemblyInfo.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorAssemblyInfo.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\staticwebassets\Capitulo01_MVC.StaticWebAssets.Manifest.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\staticwebassets\Capitulo01_MVC.StaticWebAssets.xml
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\Capitulo01_MVC.styles.css
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.TagHelpers.input.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.TagHelpers.output.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorCoreGenerate.cache
@@ -158,6 +161,7 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Infra\Acessar.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Infra\RegistrarNovoUsuario.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Erro404.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIES.cshtml.g.cs
@@ -171,5 +175,3 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.pdb
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.genruntimeconfig.cache
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\staticwebassets\Capitulo01_MVC.StaticWebAssets.xml
-C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\scopedcss\bundle\Capitulo01_MVC.styles.css

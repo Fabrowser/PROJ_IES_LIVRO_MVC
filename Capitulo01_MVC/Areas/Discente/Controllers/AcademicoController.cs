@@ -8,6 +8,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Modelo.Discente;
+using Microsoft.AspNetCore.Http;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.FileProviders;
 
 namespace Modelo.Cadastros
 {
@@ -17,10 +21,12 @@ namespace Modelo.Cadastros
 
         private readonly IESContext _context;
         private readonly AcademicoDAL academicoDAL;
+        private IWebHostEnvironment _env;
 
-        public AcademicoController(IESContext context)
+        public AcademicoController(IESContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
             academicoDAL = new AcademicoDAL(context);
 
         }
@@ -94,7 +100,8 @@ namespace Modelo.Cadastros
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long? id, [Bind("AcademicoID,Nome,RegistroAcademico,Nascimento")] Academico academico)
+        public async Task<IActionResult> Edit(long? id, [Bind("AcademicoID" +
+        ",Nome,RegistroAcademico,Nascimento")] Academico academico, IFormFile foto, string chkRemoverFoto)
         {
 
             if (id != academico.AcademicoID)
@@ -105,6 +112,19 @@ namespace Modelo.Cadastros
             {
                 try
                 {
+                    var stream = new MemoryStream();
+                    if (chkRemoverFoto != null)
+                    {
+                        academico.Foto = null;
+                    }
+                    else
+                    {
+
+                        await foto.CopyToAsync(stream);
+                        academico.Foto = stream.ToArray();
+                        academico.FotoMimeType = foto.ContentType;
+                    }
+
                     await academicoDAL.GravarAcademico(academico);
                 }
                 catch (DbUpdateConcurrencyException)
@@ -137,6 +157,35 @@ namespace Modelo.Cadastros
         {
             return await academicoDAL.ObterAcademicoPorId((long)id) != null;
         }
+
+        public async Task<FileContentResult> GetFoto(long id)
+        {
+            Academico academico = await academicoDAL.ObterAcademicoPorId(id);
+
+            if (academico != null)
+            {
+                return File(academico.Foto, academico.FotoMimeType);
+            }
+            return null;
+        }
+
+        public async Task<FileResult> DownloadFoto(long id)
+        {
+            Academico academico = await academicoDAL.ObterAcademicoPorId(id);
+
+            string nomeArquivo = "Foto" + academico.AcademicoID.ToString().Trim() + ".jpg";
+            FileStream fileStream = new FileStream(System.IO.Path.Combine(_env.WebRootPath, nomeArquivo), FileMode.Create, FileAccess.Write);
+
+            fileStream.Write(academico.Foto, 0, academico.Foto.Length);
+            fileStream.Close();
+
+            IFileProvider provider = new PhysicalFileProvider(_env.WebRootPath);
+            IFileInfo fileInfo = provider.GetFileInfo(nomeArquivo);
+            var readStream = fileInfo.CreateReadStream();
+            return File(readStream, academico.FotoMimeType, nomeArquivo);
+
+        }
+
 
 
     }

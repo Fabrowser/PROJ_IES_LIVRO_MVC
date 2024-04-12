@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MTqGXkU9O8VqbXdDaRTkIT8vB4zsla9KH4oj5VKuXytVDj3cqNNMKhg3itEbigewOX6UcLIJjTfJWO3hIzZ12Q==",
+  "dgSpecHash": "9L72a2YrBZ7d8dSl6Q2/8+7KtLj3FkWH1w7ASDmZk5DZbwM2bEJiL5uJkzZ67cW+qwSm/rjjmoPbaWe7Mo3ITg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fabri\\source\\repos\\Capitulo01_MVC\\Modelo\\Modelo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fabri\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.1\\microsoft.aspnetcore.http.features.3.1.1.nupkg.sha512",
+    "C:\\Users\\fabri\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512",
+    "C:\\Users\\fabri\\.nuget\\packages\\system.io.pipelines\\4.7.0\\system.io.pipelines.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

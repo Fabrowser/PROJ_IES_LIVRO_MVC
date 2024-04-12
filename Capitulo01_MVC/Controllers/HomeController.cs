@@ -29,8 +29,19 @@ namespace Capitulo01_MVC.Controllers
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Error(int? statusCode = null)
         {
+
+            if (statusCode.HasValue)
+            {
+                if (statusCode==404 || statusCode == 505){
+
+                    var viweName = $"Erro{statusCode.ToString()}";
+                    return View();
+
+                }
+            }
+
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
