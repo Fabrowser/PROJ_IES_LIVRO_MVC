@@ -1,4 +1,5 @@
 ﻿using Modelo.Cadastros;
+using Modelo.Docente;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,8 @@ namespace Modelo.Cadastros
 
         public virtual ICollection<CursoDisciplina> CursosDisciplinas{get;set;}
 
-}
+        public virtual ICollection<CursoProfessor> CursosProfessores { get; set; }
+
+
+    }
 }

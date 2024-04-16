@@ -9,6 +9,7 @@ using Capitulo01_MVC.Data.DAL.Cadastros;
 using Modelo.Discente;
 using Capitulo01_MVC.Models.Infra;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Modelo.Docente;
 
 namespace Capitulo01_MVC.Data
 {
@@ -25,13 +26,16 @@ namespace Capitulo01_MVC.Data
         public DbSet<Instituicao> Instituicoes { get; set; }
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
-        public DbSet<Academico> Academicos
-        {get; set;}
+        public DbSet<Academico> Academicos{get; set;}
+        public DbSet<Professor> Professores { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+
             modelBuilder.Entity<CursoDisciplina>()
             .HasKey(cd => new { cd.CursoID, cd.DisciplinaID });
 
@@ -45,6 +49,19 @@ namespace Capitulo01_MVC.Data
                 .HasOne(c => c.Disciplina)
                 .WithMany(cd => cd.CursosDisciplinas)
                 .HasForeignKey(d => d.DisciplinaID);
+
+            modelBuilder.Entity<CursoProfessor>()
+                .HasKey(cd => new { cd.CursoID, cd.ProfessorID });
+
+            modelBuilder.Entity<CursoProfessor>()
+                .HasOne(c => c.Curso)
+                .WithMany(cd => cd.CursosProfessores)
+                .HasForeignKey(c => c.CursoID);
+
+            modelBuilder.Entity<CursoProfessor>()
+                .HasOne(d => d.Professor)
+                .WithMany(cd => cd.CursoProfessores)
+                .HasForeignKey(d => d.ProfessorID);
         }
 
 

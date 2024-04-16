@@ -1,10 +1,12 @@
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\bin\Debug\netcoreapp3.1\Modelo.deps.json
+C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\bin\Debug\netcoreapp3.1\Modelo.runtimeconfig.json
+C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\bin\Debug\netcoreapp3.1\Modelo.runtimeconfig.dev.json
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\bin\Debug\netcoreapp3.1\Modelo.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\bin\Debug\netcoreapp3.1\Modelo.pdb
-C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.AssemblyReference.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfoInputs.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfo.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\fabri\source\repos\Capitulo01_MVC\Modelo\obj\Debug\netcoreapp3.1\Modelo.genruntimeconfig.cache
