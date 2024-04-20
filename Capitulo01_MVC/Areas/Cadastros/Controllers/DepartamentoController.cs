@@ -90,10 +90,10 @@ namespace Modelo.Cadastros
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
-        public async Task<IActionResult> Edit(long? id, [Bind("DepartamentoId,Nome, InstituicaoID")] Departamento departamento)
+        public async Task<IActionResult> Edit(long? id, [Bind("DepartamentoID,Nome, InstituicaoID")] Departamento departamento)
         {
 
-            if (id != departamento.DepartamentoId)
+            if (id != departamento.DepartamentoID)
             {
                 return NotFound();
 
@@ -107,7 +107,7 @@ namespace Modelo.Cadastros
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (! await DepartamentoExists(departamento.DepartamentoId))
+                    if (! await DepartamentoExists(departamento.DepartamentoID))
                     {
                         return NotFound();
                     }

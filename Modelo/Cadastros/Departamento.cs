@@ -9,7 +9,7 @@ namespace Modelo.Cadastros
     public class Departamento
     {
 
-        public long? DepartamentoId { get; set; }
+        public long? DepartamentoID{ get; set; }
         public string Nome { get; set; }
 
         public long? InstituicaoID { get;set;}

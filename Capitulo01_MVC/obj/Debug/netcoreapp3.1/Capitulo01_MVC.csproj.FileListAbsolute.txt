@@ -137,6 +137,7 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.TagHelpers.input.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.TagHelpers.output.cache
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.RazorCoreGenerate.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Cadastros\Views\Curso\Index.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Cadastros\Views\Departamento\Create.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Cadastros\Views\Departamento\Delete.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Cadastros\Views\Departamento\Details.cshtml.g.cs
@@ -157,6 +158,12 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Edit.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Index.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\_ViewImports.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\AdicionarProfessor.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\Create.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\Delete.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\Details.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\Edit.cshtml.g.cs
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\Index.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\_ViewImports.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -176,3 +183,4 @@ C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.dll
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.pdb
 C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Capitulo01_MVC.genruntimeconfig.cache
+C:\Users\fabri\source\repos\Capitulo01_MVC\Capitulo01_MVC\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\VerificarUltimosRegistros.cshtml.g.cs

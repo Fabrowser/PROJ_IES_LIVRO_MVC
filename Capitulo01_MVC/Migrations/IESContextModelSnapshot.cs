@@ -252,7 +252,7 @@ namespace Capitulo01_MVC.Migrations
 
             modelBuilder.Entity("Modelo.Cadastros.Departamento", b =>
                 {
-                    b.Property<long?>("DepartamentoId")
+                    b.Property<long?>("DepartamentoID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -263,7 +263,7 @@ namespace Capitulo01_MVC.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("DepartamentoId");
+                    b.HasKey("DepartamentoID");
 
                     b.HasIndex("InstituicaoID");
 
